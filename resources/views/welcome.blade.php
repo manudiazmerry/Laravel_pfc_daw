@@ -1,27 +1,45 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>PFC DAW Manu</title>
+@extends("../layouts.plantilla")
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+@section("cabecera")
+@endsection
 
-        <!-- Styles -->
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-    </head>
 
-    <body>
+@section("contenido")
 
-        <div>
-            <h1>PFC DAW Manu Díaz-Merry</h1>
-        </div>
 
-    </body>
-</html>
+<div class="container">
+    <div class="row">
+        <div class="col">columna número 1</div>
+        <div class="col">columna número 2</div>
+        <div class="col">columna número 3</div>
+        <div class="col">columna número 4</div>
+    </div>
+
+    <div class="row">
+        <div class="col">columna número 1</div>
+        <div class="col">columna número 2</div>
+        <div class="col">columna número 3</div>
+        <div class="col">columna número 4</div>
+    </div>
+
+    <div class="row">
+        <div class="col">columna número 1</div>
+        <div class="col">columna número 2</div>
+        <div class="col">columna número 3</div>
+        <div class="col">columna número 4</div>
+    </div>
+
+
+
+
+
+
+
+</div>
+
+@endsection
+
+
+@section("pie")
+@endsection
