@@ -23,16 +23,11 @@ Route::get('/', 'RutasController@inicio');
 Route::get('/inicio', 'RutasController@inicio');
 Route::get('/index', 'RutasController@inicio');
 
+
 Route::get('/buscadores', 'RutasController@buscadores');
 Route::get('/prensa', 'RutasController@prensa');
 Route::get('/rrss', 'RutasController@rrss');
 Route::get('/compras', 'RutasController@compras');
 Route::get('/bancos', 'RutasController@bancos');
 Route::get('/video', 'RutasController@video');
-
-
-
-
-
-
 
