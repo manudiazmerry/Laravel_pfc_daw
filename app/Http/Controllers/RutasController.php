@@ -3,11 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Web;
 
 class RutasController extends Controller{
     
     public function inicio(){
-        $paginas=['Marca','Google','Gmail','Pagina1','Pagina2','Pagina3','Pagina4','Pagina5','Pagina5','Pagina5','Pagina5','Pagina5','Pagina5','Pagina5'];
+        $paginas=Web::all();
         return view('welcome',compact('paginas'));
     }
 

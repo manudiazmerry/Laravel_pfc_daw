@@ -9,19 +9,23 @@
 
 
 <div class="container">
+
+
+
     <div class="row">
 
+    
+
     @foreach($paginas as $pagina)
-        <div class="col">{{$pagina}}</div>
+
+    
+        
+    <a href={{$pagina->url}} target="_blank">
+            <div class="col">{{$pagina->nombre}}</div>
+        </a>
     @endforeach
 
     </div>
-
-
-
-
-
-
 </div>
 
 @endsection
