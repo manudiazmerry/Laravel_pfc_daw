@@ -18,6 +18,6 @@ Route::get('/', 'RutasController@inicio');
 Route::get('/inicio', 'RutasController@inicio');
 Route::get('/index', 'RutasController@inicio');
 
-Route::get('/{condi}', 'RutasController@filtro');
+Route::get('/filtro/{condi}', 'RutasController@filtro');
 
 

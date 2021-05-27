@@ -24,13 +24,13 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="/index">Sitios más visitados</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="/buscadores">Buscadores</a></li>
-            <li><a class="dropdown-item" href="/bancos">Bancos</a></li>
-            <li><a class="dropdown-item" href="/prensa">Prensa</a></li>
-            <li><a class="dropdown-item" href="/video">Video</a></li>
-            <li><a class="dropdown-item" href="/rrss">Redes Sociales</a></li>
-            <li><a class="dropdown-item" href="/tiendas">Tiendas</a></li>
-            <li><a class="dropdown-item" href="/juegos">Juegos</a></li>
+            <li><a class="dropdown-item" href="/filtro/buscadores">Buscadores</a></li>
+            <li><a class="dropdown-item" href="/filtro/bancos">Bancos</a></li>
+            <li><a class="dropdown-item" href="/filtro/prensa">Prensa</a></li>
+            <li><a class="dropdown-item" href="/filtro/video">Video</a></li>
+            <li><a class="dropdown-item" href="/filtro/rrss">Redes Sociales</a></li>
+            <li><a class="dropdown-item" href="/filtro/tiendas">Tiendas</a></li>
+            <li><a class="dropdown-item" href="/filtro/juegos">Juegos</a></li>
           </ul>
         </li>
         
