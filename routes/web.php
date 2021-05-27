@@ -21,3 +21,7 @@ Route::get('/index', 'RutasController@inicio');
 Route::get('/filtro/{condi}', 'RutasController@filtro');
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
