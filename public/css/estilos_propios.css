@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+body{
+    background-color: rgba(25, 40, 140, 0.5);
+}
+
+.contenido{
+   
+}
+
+.col {
+    border-radius: 5px;
+    border: 1px solid rgb(25, 40, 140);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Passion One', sans-serif;
+    font-size: 1.2em;
+    color:rgb(25, 40, 140);
+    margin:15px;
+    text-align: center;
+    }
+
+.pie{
+    background-color: rgb(80, 104, 184);
+}
