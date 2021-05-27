@@ -7,22 +7,13 @@
 
 @section("contenido")
 
-
 <div class="container">
-
-
-
     <div class="row">
-
-    
-
     @foreach($paginas as $pagina)
-
-    <!--<a href='http://{{$pagina->url}}' target="_blank">-->
+        <a href='http://{{$pagina->url}}' target="_blank">
             <div class="col">{{$pagina->nombre}}</div>
-      <!--  </a>-->
+       </a>
     @endforeach
-
     </div>
 </div>
 
