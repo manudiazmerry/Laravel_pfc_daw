@@ -18,9 +18,7 @@
 
     @foreach($paginas as $pagina)
 
-    
-        
-    <a href={{$pagina->url}} target="_blank">
+    <a href='http://{{$pagina->url}}' target="_blank">
             <div class="col">{{$pagina->nombre}}</div>
         </a>
     @endforeach
