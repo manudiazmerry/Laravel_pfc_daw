@@ -14,7 +14,7 @@
     @foreach($paginas as $pagina)
 
 
-    <div style="width:300px; height:85px; border:1px solid blue; background:white; border-radius:15px; padding:15px 25px; margin:10px;">
+    <div class="pastilla" >
         <a href='http://{{$pagina->url}}' target="_blank">
             <div>
             <IMG SRC='http://{{$pagina->url}}/favicon.ico' height="32px" style="border:1px solid blue;">
