@@ -8,7 +8,8 @@
 @section("contenido")
 
 <div class="container">
-<IMG SRC='C:/Users/manud/code/Laravel_pfc_daw/public/images/mopli.gif'>
+
+
     <div class="row">
     @foreach($paginas as $pagina)
 
