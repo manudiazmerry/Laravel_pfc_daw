@@ -1,29 +1,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 
 
 body{
     background-color: rgb(106, 149, 241);
+    width: 100%;
+    margin:0px auto;
 }
 
 .cabecera{
     width: 100%;
     height: 70px;
+    margin:0px auto;
+    background-color: white;
+    box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .contenido{
     width: 100%;
-    min-height: calc(100vh - 170px);
+    margin:0px auto;
+    padding:50px;
+    min-height: calc(100vh - 332px);
     
 }
 
 .pie{
     width: 100%;
-    min-height: 100px;
-    background-color: rgb(86, 100, 156);
+    margin:0px auto;
+    
+    background-color: rgb(67, 95, 155);
     border-top: 1px solid rgb(59, 69, 109);
     box-shadow: 0px -10px 15px 5px rgba(0, 0, 0, 0.2);
-    color:rgb(39, 45, 71);
+    color:rgb(132, 171, 255);
+    padding:40px 50px;
 }
 
 .pastilla{
@@ -44,7 +54,6 @@ body{
 
 .logo{
     transition:all 0.4s;
-    /**filter: drop-shadow (5px 5px 10px 5px rgba(0, 0, 0, 0.3));*/
     filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.5)); 
 }
 
