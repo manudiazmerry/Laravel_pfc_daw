@@ -14,7 +14,7 @@
     .cabecera a:hover{text-shadow:1px 1px 9px rgba(0, 0, 0, 0.3);}
     
     .link_log{
-      padding:0 0 0 20px;
+      padding:0 0 0 40px;
       
 
 
@@ -23,7 +23,7 @@
     .nombre{
       color:#0d6efd;
       font-family: 'Passion one';
-      font-size:2em;
+      font-size:1.5em;
       text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
       text-align:right;
       padding:0 0 0 40px;
@@ -112,7 +112,10 @@
 
       @auth
 
-      <div  class="nombre">{{ Auth::user()->name }}</div>
+      <div  class="nombre">
+      <a href="/mislinks/{{ Auth::user()->id }}" >{{ Auth::user()->name }}</a>
+      </div>
+
 
 
       
@@ -124,7 +127,7 @@
                     
 
                     <div style="text-align:right; background-color:#f8f9fa;">
-                        <a href="/mislinks/{{ Auth::user()->id }}" class="link_log">Config</i></a><br> <!-- <i class="bi bi-gear">-->
+                        <a href="/mislinks/{{ Auth::user()->id }}" class="link_log">Config</a><br> <!-- <i class="bi bi-gear"></i>-->
 
                         
                                     <a href="{{ route('logout') }}"
