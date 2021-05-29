@@ -8,7 +8,7 @@ use App\Models\Web;
 class RutasController extends Controller{
     
     public function inicio(){
-        $paginas=Web::all();
+        $paginas=Web::where("user_id",null)->orderby('nombre')->get();
         return view('welcome',compact('paginas'));
     }
 

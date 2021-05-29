@@ -38,7 +38,7 @@ body{
 
 .pastilla{
     width:300px; 
-    height:85px; 
+    height:75px; 
     border:1px solid blue; 
     background:rgb(255, 255, 255); 
     border-radius:15px; 
@@ -60,6 +60,8 @@ body{
 .logo:hover{
     transform: scale(1.06);
 }
+
+a {text-decoration: none; }
 
 
 

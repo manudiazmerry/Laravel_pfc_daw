@@ -4,7 +4,7 @@
       font-family:'passion one';
       font-size:1.2em;
       text-decoration:none;
-      border:1px solid black;
+      /*border:1px solid black;*/
       margin:2px;
       border-radius:10px;
     
@@ -21,7 +21,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
   <div class="container-md">
-    <a class="navbar-brand" href="/"><img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="logo"></a>
+    <a class="navbar-brand" href="/"><img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="logo" style="padding-right:40px;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,9 +29,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
         <!--nav item-------------------------->
-        <li class="nav-item">
-          <a class="nav-link" href="/filtro/vistos">Los más visitados</a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="/filtro/buscadores">Buscadores</a>
         </li>
@@ -39,10 +37,10 @@
           <a class="nav-link" href="/filtro/prensa">Prensa</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/rrss">Redes Sociales</a>
+          <a class="nav-link" href="/filtro/rrss">Redes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/tv">TV</a>
+          <a class="nav-link" href="/filtro/tv">Televisión</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/filtro/tiendas">Tiendas</a>
@@ -54,7 +52,7 @@
           <a class="nav-link" href="/filtro/bancos">Bancos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/googlehub">Sitios de Google</a>
+          <a class="nav-link" href="/filtro/googlehub">Google</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/filtro/otros">Otros</a>

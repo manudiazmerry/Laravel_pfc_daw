@@ -16,9 +16,9 @@
 
     <div class="pastilla" >
         <a href='http://{{$pagina->url}}' target="_blank">
-            <div>
-            <IMG SRC='http://{{$pagina->url}}/favicon.ico' height="32px" style="border:1px solid blue;">
-            <span style="border:1px solid blue; padding-left:21px; font-family:Passion one; font-size:24px">{{$pagina->nombre}}</span>
+            <div style="display:flex; align-items:center;">
+                <span><IMG SRC='http://{{$pagina->url}}/favicon.ico' height="24px"></span>
+                <span style="padding-left:21px; font-family:Passion one; font-size:28px;">{{$pagina->nombre}}</span>
             </div>
        </a>
     </div>
@@ -36,4 +36,9 @@
 @endsection
 
 
+<!--
+display: flex;
+  justify-content: center;
+  align-items: center;
 
+-->
