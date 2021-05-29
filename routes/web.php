@@ -20,6 +20,8 @@ Route::get('/index', 'RutasController@inicio');
 
 Route::get('/filtro/{condi}', 'RutasController@filtro');
 
+Route::get('/mislinks/{user_id}', 'RutasController@mislinks');
+
 
 
 Auth::routes();

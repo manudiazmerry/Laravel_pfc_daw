@@ -2,6 +2,7 @@
 @extends("../layouts.plantilla")
 
 @section("cabecera")
+<!--ver navbar-->
 @endsection
 
 
@@ -23,7 +24,7 @@
        </a>
     </div>
 
-
+    
 
     @endforeach
     </div>
@@ -33,6 +34,7 @@
 
 
 @section("pie")
+<!--ver pie-->
 @endsection
 
 
