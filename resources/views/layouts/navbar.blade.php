@@ -1,3 +1,22 @@
+<style>
+    
+    .cabecera a {
+      font-family:'passion one';
+      font-size:1.2em;
+      text-decoration:none;
+      border:1px solid black;
+      margin:2px;
+      border-radius:10px;
+    
+    }
+
+
+    .cabecera a:hover{text-shadow:1px 1px 9px rgba(0, 0, 0, 0.3);}
+    
+</style>
+
+
+
 <!-------------------------------------------------------------------------------------------------------navbar------------>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
@@ -9,13 +28,40 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-        <!--nav item------------------------
+        <!--nav item-------------------------->
         <li class="nav-item">
-          <a class="nav-link" href="#">Mis links</a>
+          <a class="nav-link" href="/filtro/vistos">Los más visitados</a>
         </li>
-        -->
+        <li class="nav-item">
+          <a class="nav-link" href="/filtro/buscadores">Buscadores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/filtro/prensa">Prensa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/filtro/rrss">Redes Sociales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/filtro/tv">TV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/filtro/tiendas">Tiendas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/filtro/supers">Supermercados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/filtro/bancos">Bancos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/filtro/googlehub">Sitios de Google</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/filtro/otros">Otros</a>
+        </li>
+        
 
-        <!--nav desplegable------------------------>
+        <!--nav desplegable----------------------
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categorías
@@ -34,7 +80,7 @@
             <li><a class="dropdown-item" href="/filtro/juegos">Juegos</a></li>
           </ul>
         </li>
-        
+        -->
         
       </ul>
       
