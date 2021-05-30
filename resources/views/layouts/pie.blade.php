@@ -17,15 +17,16 @@
     .pie {text-shadow:1px 1px 4px rgba(0, 0, 0, 0.5); font-size:0.9em;}
     .pie a {color:rgb(109, 150, 240); text-decoration:none; }
     .pie a:hover{text-shadow:1px 1px 9px rgba(0, 0, 0, 0.9);}
+    .pie p {margin-bottom:0;}
     
 </style>
 
 <div class="container">
     <div class="row">
 
-        <div class="col-lg" style="min-width:290px; text-align:center; padding-top:20px;">
+        <div class="col-lg" style="min-width:290px; text-align:center; padding-top:5px;">
         <img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="sombra" ><br>
-        <p style="font-family:passion one; font-size:1.3em; padding-top:10px;">My Online Personal Links © 2021</p>
+        <p style="font-family:passion one; font-size:1.3em; padding-top:5px;">My Online Personal Links © 2021</p>
         </div>
 
         <div class="col-lg" style="min-width:290px; padding-left:40px;">
