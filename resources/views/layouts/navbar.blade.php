@@ -21,10 +21,10 @@
     }
 
     .nombre{
-      color:#0d6efd;
+      color:#0b5cd6;
       font-family: 'Passion one';
-      font-size:1.5em;
-      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+      font-size:1.3em;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
       text-align:right;
       padding:0 0 0 40px;
       background-color:#f8f9fa ;
