@@ -41,9 +41,9 @@
 
 <!-------------------------------------------------------------------------------------------------------navbar------------>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="max-height: 70px;">
+<nav class="navbar navbar-expand-xl navbar-light bg-light" style="max-height: 70px;">
   <div class="container-md">
-    <a class="navbar-brand" href="/"><img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="logo" style="padding-right:30px;"></a>
+    <a class="navbar-brand" href="/"><img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="logo" style="padding-right:100px;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
