@@ -23,6 +23,15 @@ Route::get('/filtro/{condi}', 'RutasController@filtro');
 Route::get('/mislinks/{user_id}', 'RutasController@mislinks');
 
 
+Route::get('/webs', 'WebController@index');
+Route::get('/webs/index', 'WebController@index');
+
+Route::get('/webs/create', 'WebController@create');
+
+
+
+
+
 
 Auth::routes();
 

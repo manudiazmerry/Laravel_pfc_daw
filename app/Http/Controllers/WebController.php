@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Web;
 
 class WebController extends Controller
 {
@@ -11,9 +12,9 @@ class WebController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        //
+    public function index(){
+        $webs = Web::all();
+        return view('web.index')->with('webs',$webs);
     }
 
     /**
@@ -23,7 +24,7 @@ class WebController extends Controller
      */
     public function create()
     {
-        //
+        return view('web.create');
     }
 
     /**
