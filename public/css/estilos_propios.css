@@ -24,7 +24,7 @@ body{
 .contenido{
     width: 100%;
     margin:0px auto;
-    padding:90px 90px;
+    padding:70px 90px 30px;
     min-height: calc(100vh - 175px);
     margin:0 auto;
     
