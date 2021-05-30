@@ -10,11 +10,12 @@
 
 <div class="container">
 
+    <!--------------------------------- mensaje---------->
     <p class="txt_ruta">Personaliza tus links</p>
 
     <!---------------------------------botón crear---------->
 
-    <a href="webs/create" class="btn btn-primary">Crear</a>
+    <a href="webs/create" class="btn btn-primary">Añadir link</a>
 
     <!---------------------------------tabla ---------->
 
@@ -40,8 +41,8 @@
                 <th scope="col">{{ $web->categoria }}</th>
                 <th scope="col">{{ $web->user_id }}</th>
                 <th scope="col" style="text-align:center;">
-                    <a href="webs/edit" class="btn btn-info">Editar</a>
-                    <a href="webs/destroy" class="btn btn-danger">Borrar</a>                
+                    <a href="webs/edit" class="btn btn-info btn-sm">Editar</a>
+                    <a href="webs/destroy" class="btn btn-danger btn-sm">Borrar</a>                
                 </th>
             </tr>
             @endforeach

@@ -33,9 +33,20 @@ class WebController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+    public function store(Request $request){
+        $webs = new Web();
+
+        /* $webs->id = $request->get('id'); es automático, es autoincrement */
+           $webs->nombre = $request->get('nombre'); /*viene del formulario*/
+           $webs->url = $request->get('url'); /*viene del formulario*/
+           $webs->categoria = 'de_usuario'; /*siempre es esta categoría*/
+           $webs->user_id = '999'; /*aquí está el lio, cada user el suyo, ahora el que esté identificado*/
+
+        $webs->save();
+
+        return redirect('/webs');
+
+        
     }
 
     /**

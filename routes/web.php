@@ -27,6 +27,7 @@ Route::get('/webs', 'WebController@index');
 Route::get('/webs/index', 'WebController@index');
 
 Route::get('/webs/create', 'WebController@create');
+Route::get('/webs/store', 'WebController@store');
 
 
 

@@ -10,5 +10,5 @@ class Web extends Model
     use HasFactory;
     
     //permiso para poder usar el método create que viene protegido por las inserciones en masa
-    //protected $fillable=['nombre','url','categoria'];
+    protected $fillable=['id','nombre','url','categoria','user_id'];
 }
