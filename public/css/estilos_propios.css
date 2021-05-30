@@ -105,8 +105,9 @@ a {
 
 .card-header{
     color:#1852a8;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align:center;
+    padding:0 15px;
 }
 
 .form-group {
