@@ -14,7 +14,7 @@
     .cabecera a:hover{text-shadow:1px 1px 9px rgba(0, 0, 0, 0.3);}
     
     .link_log{
-      padding:0 0 0 40px;
+      padding:0 0 0 30px;
       
 
 
@@ -26,7 +26,7 @@
       font-size:1.3em;
       text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
       text-align:right;
-      padding:0 0 0 40px;
+      padding:0 0 0 30px;
       background-color:#f8f9fa ;
 
     }
@@ -43,7 +43,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="max-height: 70px;">
   <div class="container-md">
-    <a class="navbar-brand" href="/"><img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="logo" style="padding-right:40px;"></a>
+    <a class="navbar-brand" href="/"><img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="logo" style="padding-right:30px;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

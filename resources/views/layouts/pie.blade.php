@@ -23,18 +23,18 @@
 <div class="container">
     <div class="row">
 
-        <div class="col" style="min-width:300px; text-align:center; padding-top:20px;">
+        <div class="col-lg" style="min-width:290px; text-align:center; padding-top:20px;">
         <img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="sombra"><br>
         <p style="font-family:passion one; font-size:1.3em; padding-top:10px;">My Online Personal Links © 2021</p>
         </div>
 
-        <div class="col" style="min-width:300px; padding-left:40px;">
+        <div class="col-lg" style="min-width:290px; padding-left:40px;">
         <p><a href="mailto:manudiazmerry@gmail.com"><i class="bi bi-at"></i><span class="padleft">manudiazmerry@gmail.com</span></a></p>
         <p><a href="tel:+34676208906"><i class="bi bi-telephone"></i><span class="padleft">676 208 906</span></a></p>
         <p><i class="bi bi-mailbox"></i><span class="padleft">Ronda Monte Alto 34</span></p>
         </div>
 
-        <div class="col" style="min-width:300px; padding-left:40px;">
+        <div class="col-lg" style="min-width:290px; padding-left:40px;">
         <p><a href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i><span class="padleft">Facebook</span></a></p>
         <p><a href="http://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i><span class="padleft">Instagram</span></a></p>
         <p><a href="http://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i><span class="padleft">Twitter</span></a></p>
