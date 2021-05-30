@@ -24,7 +24,7 @@
     <div class="row">
 
         <div class="col-lg" style="min-width:290px; text-align:center; padding-top:20px;">
-        <img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="sombra"><br>
+        <img src="{{asset('images/logo_mano.png')}}" alt="logo" height=50px class="sombra" ><br>
         <p style="font-family:passion one; font-size:1.3em; padding-top:10px;">My Online Personal Links © 2021</p>
         </div>
 

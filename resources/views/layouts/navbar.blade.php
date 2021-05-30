@@ -52,35 +52,36 @@
 
         <!--nav item-------------------------->
         <style>
-          .nav-item{background-color:#f8f9fa;}
+          .nav-item{background-color:#f8f9fa; }
+          .nav-link{text-align: right;}
         </style>
         
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/buscadores" style="text-align: right;">Buscadores</a>
+          <a class="nav-link" href="/filtro/buscadores">Buscadores</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/prensa" style="text-align: right;">Prensa</a>
+          <a class="nav-link" href="/filtro/prensa">Prensa</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/rrss" style="text-align: right;">Redes</a>
+          <a class="nav-link" href="/filtro/rrss">Redes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/tv" style="text-align: right;">Televisión</a>
+          <a class="nav-link" href="/filtro/tv" >Televisión</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/tiendas" style="text-align: right;">Tiendas</a>
+          <a class="nav-link" href="/filtro/tiendas">Tiendas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/supers" style="text-align: right;">Supermercados</a>
+          <a class="nav-link" href="/filtro/supers">Supermercados</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/bancos" style="text-align: right;">Bancos</a>
+          <a class="nav-link" href="/filtro/bancos">Bancos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/googlehub" style="text-align: right;">Google</a>
+          <a class="nav-link" href="/filtro/googlehub">Google</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/filtro/otros" style="text-align: right;">Otros</a>
+          <a class="nav-link" href="/filtro/otros">Otros</a>
         </li>
         
 

@@ -8,7 +8,8 @@
 
 @section("contenido")
 
-<div class="container">
+<div class="container" >
+    <p class="txt_ruta">{{$mensaje}}</p>
 
 
     <div class="row">
