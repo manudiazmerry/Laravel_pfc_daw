@@ -18,7 +18,7 @@ class CrearTablaWebs extends Migration
             $table->string('nombre');
             $table->string('url');
             $table->string('categoria');
-            $table->string('img');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
