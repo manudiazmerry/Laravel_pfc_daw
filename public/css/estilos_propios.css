@@ -14,7 +14,7 @@ body{
     height: 73px;
     margin:0px auto;
     background-color: white;
-    box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.2);
     position:fixed;
     border-bottom: 1px solid rgb(59, 69, 109);
 
@@ -43,20 +43,22 @@ body{
 .pastilla{
     width:280px; 
     height:75px; 
-    border:1px solid blue; 
+    /*border:1px solid rgb(1, 1, 211); */
     /*background:rgb(255, 255, 255); */
     background-image: url("../images/fondo_link.png");
     background-size: cover;
     border-radius:15px; 
     padding:15px 25px; 
     margin:15px;
-    transition:all 0.4s;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+    transition:all 0.3s;
+    box-shadow: 5px 5px 7px 4px rgba(0, 0, 0, 0.3);
 }
 
 .pastilla:hover{ 
-    transform: scale(1.06);
+    transform: scale(1.07);
 }
+
+
 
 .logo{
     transition:all 0.4s;
@@ -80,6 +82,34 @@ a {
 
 
     text-shadow: 0px 0px 10px rgba(240, 241, 245, 0.7);
+}
+
+
+
+/*--------------------------------------------formularios----------------*/
+
+.formularios{
+    padding: 50px 0 ;
+}
+
+.card{
+    font-family: 'Passion one';
+    color:rgb(99, 99, 99);
+    border:1px solid rgb(59, 69, 109);
+    box-shadow: 4px 4px 15px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.card-header{
+    color:#1852a8;
+    font-size: 1.3em;
+    text-align:center;
+}
+
+.form-group {
+    padding:15px 10% 0;
+    
 }
 
 

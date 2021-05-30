@@ -10,17 +10,8 @@
 @section("contenido")
 <div class="container" >
 
-                    
-        <!-- Authentication Links -->
-        
-            
-        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-            @csrf
-        </form>
-                
-       
            
-        <main class="py-4">
+        <main class="formularios">
             @yield('content')
         </main>
 
