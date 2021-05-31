@@ -41,8 +41,12 @@
                 <th scope="col">{{ $web->categoria }}</th>
                 <th scope="col">{{ $web->user_id }}</th>
                 <th scope="col" style="text-align:center;">
+                    <form action="webs/destroy/{{ $web->id }}" method="get">
                     <a href="webs/{{ $web->id }}/edit" class="btn btn-info btn-sm">Editar</a>
-                    <a href="webs/destroy" class="btn btn-danger btn-sm">Borrar</a>                
+                    @csrf
+                    <!--@method('DELETE')-->
+                    <button type="submit" class="btn btn-danger btn-sm">Borrar</button>    
+                    </form>
                 </th>
             </tr>
             @endforeach

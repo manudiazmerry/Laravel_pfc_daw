@@ -127,6 +127,9 @@ class WebController extends Controller
     /*------------------------------------------------------------------------------ borrar ----------*/
     public function destroy($id)
     {
-        //
+        $web = Web::find($id);
+        $web->delete();
+        return redirect('/webs');
+
     }
 }

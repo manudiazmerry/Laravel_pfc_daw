@@ -31,10 +31,7 @@ Route::get('/webs/create', 'WebController@create');
 Route::get('/webs/store', 'WebController@store');
 Route::get('/webs/{id}/edit', 'WebController@edit');
 Route::get('/webs/{id}/update', 'WebController@update');
-
-
-
-
+Route::get('/webs/destroy/{id}', 'WebController@destroy');
 
 
 
