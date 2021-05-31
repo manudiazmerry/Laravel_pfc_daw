@@ -7,6 +7,7 @@ body{
     background-color: rgb(106, 149, 241);
     width: 100%;
     margin:0px auto;
+    overflow: hidden;
 }
 
 .cabecera{
@@ -17,14 +18,13 @@ body{
     box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.2);
     position:fixed;
     border-bottom: 1px solid rgb(59, 69, 109);
-
-
+    
 }
 
 .contenido{
     width: 100%;
     margin:0px auto;
-    padding:77px 90px 23px;
+    padding:77px 30px 23px;
     min-height: calc(100vh - 175px);
     margin:0 auto;
     
@@ -32,6 +32,7 @@ body{
 
 .pie{
     width: 100%;
+    min-width: 350px;
     margin:0px auto;
     background-color: rgb(67, 95, 155);
     border-top: 1px solid rgb(59, 69, 109);
@@ -52,6 +53,7 @@ body{
     margin:15px;
     transition:all 0.3s;
     box-shadow: 5px 5px 7px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
 .pastilla:hover{ 

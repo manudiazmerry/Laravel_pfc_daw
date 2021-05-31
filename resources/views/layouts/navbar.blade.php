@@ -104,7 +104,7 @@
       @auth
 
       <div  class="nombre">
-      <a href="/mislinks/{{ Auth::user()->id }}" >{{ Auth::user()->name }}</a>
+      <a href="/mislinks/{{ Auth::user()->id }}" >Links de {{ Auth::user()->name }}</a>
       </div>
 
 
