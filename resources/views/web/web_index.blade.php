@@ -13,9 +13,6 @@
     <!--------------------------------- mensaje---------->
     <p class="txt_ruta">Personaliza tus links</p>
 
-    <!---------------------------------botón crear---------->
-
-    <a href="/webs/create" class="btn btn-primary">Añadir link</a>
 
     <!---------------------------------tabla ---------->
 
@@ -28,7 +25,7 @@
                 <th scope="col">URL</th>
                 <th scope="col">categoria</th>
                 <th scope="col">user_id</th>
-                <th scope="col">Acciones</th>
+                <th scope="col"><a href="/webs/create" class="btn btn-outline-success" style="width:100px">Añadir link</a></th>
             </tr>
         </thead>
 
@@ -42,10 +39,10 @@
                 <th scope="col">{{ $web->user_id }}</th>
                 <th scope="col" style="text-align:center;">
                     <form action="webs/destroy/{{ $web->id }}" method="get">
-                    <a href="webs/{{ $web->id }}/edit" class="btn btn-info btn-sm">Editar</a>
+                    <a href="webs/{{ $web->id }}/edit" class="btn btn-outline-primary btn-sm">Editar</a>
                     @csrf
                     <!--@method('DELETE')-->
-                    <button type="submit" class="btn btn-danger btn-sm">Borrar</button>    
+                    <button type="submit" class="btn btn-outline-danger btn-sm">Borrar</button>    
                     </form>
                 </th>
             </tr>
