@@ -22,8 +22,9 @@ class WebController extends Controller
      */
     public function index(){
         $usuario = Auth::user()->id;
-        $webs = Web::where('id',$usuario)->get();
-        return view('web.web_index')->with('webs',$webs);
+        $webs = Web::where('user_id',$usuario)->get();
+        /*return view('web.web_index')->with('webs',$webs);*/
+        return view('web.web_index',compact('webs'));
     }
 
         /*
