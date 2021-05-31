@@ -15,7 +15,7 @@
 
     <!---------------------------------botón crear---------->
 
-    <a href="webs/create" class="btn btn-primary">Añadir link</a>
+    <a href="/webs/create" class="btn btn-primary">Añadir link</a>
 
     <!---------------------------------tabla ---------->
 

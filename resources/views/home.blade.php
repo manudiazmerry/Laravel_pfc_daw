@@ -4,7 +4,7 @@
 
 
 <head>
-  <meta http-equiv="Refresh" content="3; URL=http://pfc_daw.test/">
+  <meta http-equiv="Refresh" content="3; URL=http://pfc_daw.test/mislinks/{{ Auth::user()->id }}">
 </head>
 
 

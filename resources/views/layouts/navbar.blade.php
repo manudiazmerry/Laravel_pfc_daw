@@ -113,7 +113,7 @@
                     
 
                     <div style="text-align:right; background-color:#f8f9fa;">
-                        <a href="/mislinks/{{ Auth::user()->id }}" class="link_log">Config</a><br> <!-- <i class="bi bi-gear"></i>-->
+                        <a href="/webs" class="link_log">Config</a><br> <!-- <i class="bi bi-gear"></i>-->
 
                         
                                     <a href="{{ route('logout') }}"
