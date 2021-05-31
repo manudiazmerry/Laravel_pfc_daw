@@ -5,12 +5,18 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Web;
 
+
 class WebController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
+     * 
+     * {{ Auth::user()->id }}
+     *  $paginas=Web::where("user_id",$user_id)->orderby('nombre')->get();
+     * Web::where("user_id",$user);
+     * 
      */
     public function index(){
         $webs = Web::all();

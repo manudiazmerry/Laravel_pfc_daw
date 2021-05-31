@@ -7,17 +7,15 @@
       /*border:1px solid black;*/
       margin:2px;
       border-radius:10px;
-    
     }
 
 
-    .cabecera a:hover{text-shadow:1px 1px 9px rgba(0, 0, 0, 0.3);}
+    .cabecera a:hover{
+      text-shadow:1px 1px 9px rgba(0, 0, 0, 0.3);
+    }
     
     .link_log{
       padding:0 0 0 30px;
-      
-
-
     }
 
     .nombre{
@@ -28,12 +26,7 @@
       text-align:right;
       padding:0 0 0 30px;
       background-color:#f8f9fa ;
-
     }
-
-
-
-
 
 </style>
 
@@ -113,11 +106,6 @@
       <div  class="nombre">
       <a href="/mislinks/{{ Auth::user()->id }}" >{{ Auth::user()->name }}</a>
       </div>
-
-
-
-      
-
 
 
 
