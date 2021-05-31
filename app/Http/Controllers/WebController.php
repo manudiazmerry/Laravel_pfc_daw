@@ -20,6 +20,8 @@ class WebController extends Controller
      * Web::where("user_id",$user);
      * 
      */
+    
+     /*------------------------------------------------------------------------------ index ----------*/
     public function index(){
         $usuario = Auth::user()->id;
         $webs = Web::where('user_id',$usuario)->get();
@@ -39,6 +41,7 @@ class WebController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    /*------------------------------------------------------------------------------ create ----------*/
     public function create()
     {
         return view('web.web_create');
@@ -50,6 +53,7 @@ class WebController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    /*------------------------------------------------------------------------------ store ----------*/
     public function store(Request $request){
         $webs = new Web();
 
@@ -72,6 +76,7 @@ class WebController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    /*------------------------------------------------------------------------------ mostrar ----------*/
     public function show($id)
     {
         //
@@ -83,9 +88,11 @@ class WebController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    /*------------------------------------------------------------------------------ edit ----------*/
     public function edit($id)
     {
-        //
+        $web = Web::find($id);
+        return view('web.web_edit')->with('web',$web);
     }
 
     /**
@@ -95,9 +102,20 @@ class WebController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    /*------------------------------------------------------------------------------ update ----------*/
     public function update(Request $request, $id)
     {
-        //
+        $web = Web::find($id);
+
+        /* $web->id = $request->get('id'); es automático, es autoincrement */
+           $web->nombre = $request->get('nombre'); /*viene del formulario*/
+           $web->url = $request->get('url'); /*viene del formulario*/
+        /*  $web->categoria = 'de_usuario'; no se modifica*/
+        /*  $web->user_id = Auth::user()->id; no se modifica*/
+
+        $web->save();
+
+        return redirect('/webs');
     }
 
     /**
@@ -106,6 +124,7 @@ class WebController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    /*------------------------------------------------------------------------------ borrar ----------*/
     public function destroy($id)
     {
         //

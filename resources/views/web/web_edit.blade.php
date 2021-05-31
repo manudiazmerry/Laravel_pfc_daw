@@ -17,25 +17,25 @@
     <!--------------------------------- form---------->
 
     <div class="card">
-        <div class="card-header">Añade un link personalizado</div>
+        <div class="card-header">Edita tu link</div>
 
         <div class="card-body">
 
-            <form method="GET" action="/webs/store">
+            <form method="GET" action="/webs/{{$web->id}}/update">
             @csrf <!---- directiva crea token para evitar los errores 419 http de identificación en servidor, cosas geniales de laravel! ------->
-                
+            <!--- @method('PUT') sería método adecuado para editar mediante forms---------->
 
                 <div class="form-group row">
                     <label class="col-md-4 col-form-label text-md-right">Nombre</label>
                     <div class="col-md-6">
-                        <input id="nombre" name="nombre" type="text" class="form-control" value="" required autocomplete="" maxlength="17" autofocus>
+                        <input id="nombre" name="nombre" type="text" class="form-control" required  maxlength="17" autofocus value="{{$web->nombre}}">
                     </div>
                 </div>
 
                 <div class="form-group row">
                     <label class="col-md-4 col-form-label text-md-right">url</label>
                     <div class="col-md-6">
-                        <input id="url" name="url" type="text" class="form-control" required autocomplete="">
+                        <input id="url" name="url" type="text" class="form-control" required value="{{$web->url}}">
                     </div>
                 </div>
              

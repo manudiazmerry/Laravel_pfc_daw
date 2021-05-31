@@ -41,7 +41,7 @@
                 <th scope="col">{{ $web->categoria }}</th>
                 <th scope="col">{{ $web->user_id }}</th>
                 <th scope="col" style="text-align:center;">
-                    <a href="webs/edit" class="btn btn-info btn-sm">Editar</a>
+                    <a href="webs/{{ $web->id }}/edit" class="btn btn-info btn-sm">Editar</a>
                     <a href="webs/destroy" class="btn btn-danger btn-sm">Borrar</a>                
                 </th>
             </tr>

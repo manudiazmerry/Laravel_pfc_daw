@@ -29,6 +29,9 @@ Route::get('/webs/index', 'WebController@index');
 
 Route::get('/webs/create', 'WebController@create');
 Route::get('/webs/store', 'WebController@store');
+Route::get('/webs/{id}/edit', 'WebController@edit');
+Route::get('/webs/{id}/update', 'WebController@update');
+
 
 
 
