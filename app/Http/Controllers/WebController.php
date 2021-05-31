@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Web;
+use Illuminate\Support\Facades\Auth;
+
 
 
 class WebController extends Controller
@@ -19,9 +21,17 @@ class WebController extends Controller
      * 
      */
     public function index(){
-        $webs = Web::all();
-        return view('web.index')->with('webs',$webs);
+        $usuario = Auth::user()->id;
+        $webs = Web::where('id',$usuario)->get();
+        return view('web.web_index')->with('webs',$webs);
     }
+
+        /*
+        $webs = Web::where('id', Auth::user()->id );
+        return view('web.web_index',compact('webs'));
+        */
+
+
 
     /**
      * Show the form for creating a new resource.
@@ -30,7 +40,7 @@ class WebController extends Controller
      */
     public function create()
     {
-        return view('web.create');
+        return view('web.web_create');
     }
 
     /**
@@ -46,7 +56,7 @@ class WebController extends Controller
            $webs->nombre = $request->get('nombre'); /*viene del formulario*/
            $webs->url = $request->get('url'); /*viene del formulario*/
            $webs->categoria = 'de_usuario'; /*siempre es esta categoría*/
-           $webs->user_id = '999'; /*aquí está el lio, cada user el suyo, ahora el que esté identificado*/
+           $webs->user_id = Auth::user()->id; /*aquí está el lio, cada user el suyo, ahora el que esté identificado*/
 
         $webs->save();
 
